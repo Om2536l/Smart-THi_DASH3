@@ -1,0 +1,22 @@
+{
+  "name": "smart-thi-live",
+  "version": "1.0.0",
+  "description": "Live single-unit SMART-THI dashboard, tied directly to an ESP32 over WiFi.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lucide-react": "^1.29.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}

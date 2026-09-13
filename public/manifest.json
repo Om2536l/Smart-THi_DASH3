@@ -1,0 +1,17 @@
+{
+  "name": "SMART-THI — Live Unit Dashboard",
+  "short_name": "SMART-THI Live",
+  "description": "Live five-index health monitoring and protection dashboard for a single SMART-THI unit, connected directly over its onboard WiFi.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F3F6F5",
+  "theme_color": "#101B22",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
